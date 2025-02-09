@@ -6,7 +6,7 @@ if command -v cargo &> /dev/null; then
 else
     echo "Cargo is not installed. Installing..."
     sudo apt-get update && \
-    sudo apt install -y curl git build-essential libssl-dev pkg-config && \
+    sudo apt install -y curl git build-essential libssl-dev pkg-config
     curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs/ | sh -s -- -y
     # Reload shell to ensure cargo is in PATH
     source "$HOME/.cargo/env"
