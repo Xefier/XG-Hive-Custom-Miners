@@ -8,4 +8,4 @@ fi
 . $CUSTOM_CONFIG_FILENAME
 
 #coal-pool-client
-/root/.cargo/bin/coal-pool-client --pubkey $TEMPLATE
+/root/.cargo/bin/coal-pool-client mine-public-key --pubkey $TEMPLATE
